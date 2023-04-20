@@ -1,0 +1,111 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom right, #f0ebe3, #7d9d9c);
+}
+
+h1 {
+  margin: 0;
+  font-size: 48px;
+  text-align: left;
+  color: #f0ebe3;
+}
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 60px;
+  color: #459eda;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #f3f1ec;
+  font-size: x-large;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #537fe7;
+  color: #e9f8f9;
+  padding: 20px;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+/* Main styles */
+main {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+#career p:first-of-type {
+  margin-top: 0;
+}
+
+#videos {
+  text-align: center;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.img {
+  border: #537fe7;
+  border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
